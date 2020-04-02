@@ -16,7 +16,7 @@ test_job_id = os.path.basename(__file__).replace(".py", "")
 
 imagingStudyEndpoint = (
        # "https://holoblob.blob.core.windows.net/mock-pacs/Anonymized20191023.zip"
-    "https://holoblob.blob.core.windows.net/mock-pacs/normal-chest-mediastinal.zip"
+    "http://localhost/normal-chest-mediastinal.zip"
 )
 
 

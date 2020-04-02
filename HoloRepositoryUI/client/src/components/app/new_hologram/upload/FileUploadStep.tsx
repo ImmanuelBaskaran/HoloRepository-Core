@@ -5,7 +5,7 @@ class FileUploadStep extends Component {
   render() {
     return (
       <div>
-        <FileUploadInput name="hologramFile" maxFileSizeInMb={10} required />
+        <FileUploadInput name="hologramFile" maxFileSizeInMb={50} required />
       </div>
     );
   }
