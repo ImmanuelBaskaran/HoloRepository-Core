@@ -24,7 +24,7 @@ def write_mesh_as_glb(
     scene.export(output_obj_file_path)
 
 
-def write_mesh_as_glb(
+def write_mesh_as_glb_colour(
         meshes, output_obj_file_path: str,colour, metadata={}
 ) -> None:
     scene = trimesh.Scene(metadata=metadata)
